@@ -1,4 +1,4 @@
-# Pewpew [![Workflow](https://img.shields.io/github/workflow/status/bengadbois/pewpew/build%20and%20test/master?style=flat-square)](https://github.com/bengadbois/pewpew/actions/workflows/build-and-test.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/bengadbois/pewpew?style=flat-square)](https://goreportcard.com/report/github.com/bengadbois/pewpew) [![Coveralls branch](https://img.shields.io/coveralls/bengadbois/pewpew/master.svg?style=flat-square)](https://coveralls.io/github/bengadbois/pewpew?branch=master) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/bengadbois/pewpew/lib)
+# Pewpew [![Workflow](https://img.shields.io/github/workflow/status/tonidy/pewpew2/build%20and%20test/master?style=flat-square)](https://github.com/tonidy/pewpew2/actions/workflows/build-and-test.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/tonidy/pewpew2?style=flat-square)](https://goreportcard.com/report/github.com/tonidy/pewpew2) [![Coveralls branch](https://img.shields.io/coveralls/tonidy/pewpew2/master.svg?style=flat-square)](https://coveralls.io/github/tonidy/pewpew2?branch=master) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/tonidy/pewpew2/lib)
 
 Pewpew is a flexible command line HTTP stress tester. Unlike other stress testers, it can hit multiple targets with multiple configurations, simulating real world load and bypassing caches.
 
@@ -18,9 +18,9 @@ Pewpew is a flexible command line HTTP stress tester. Unlike other stress tester
 - Tons of command line and/or config file options (arbitrary headers, cookies, User-Agent, timeouts, ignore SSL certs, HTTP authentication, Keep-Alive, DNS prefetch, and more)
 
 ## Installing
-Pre-compiled binaries for Windows, Mac, Linux, and BSD are available on [Releases](https://github.com/bengadbois/pewpew/releases).
+Pre-compiled binaries for Windows, Mac, Linux, and BSD are available on [Releases](https://github.com/tonidy/pewpew2/releases).
 
-If you want to get the latest or build from source: install Go 1.11+ and either `go get github.com/bengadbois/pewpew` or git clone this repo.
+If you want to get the latest or build from source: install Go 1.11+ and either `go get github.com/tonidy/pewpew2` or git clone this repo.
 
 ## Modes
 Pewpew features two independent modes: stress and benchmark.
@@ -115,7 +115,7 @@ import (
     "fmt"
     "os"
 
-    pewpew "github.com/bengadbois/pewpew/lib"
+    pewpew "github.com/tonidy/pewpew2/lib"
 )
 
 func main() {
@@ -142,7 +142,7 @@ func main() {
     fmt.Printf("%+v", stats)
 }
 ```
-Full package documentation at [godoc.org](https://godoc.org/github.com/bengadbois/pewpew/lib)
+Full package documentation at [godoc.org](https://godoc.org/github.com/tonidy/pewpew2/lib)
 
 ## Hints
 
